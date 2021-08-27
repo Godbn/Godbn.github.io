@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Hexo页面特效</title>
+      <link href="/p/61304.html"/>
+      <url>/p/61304.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>以下特效整理于网上分享的js代码，均在  <span class='p green'>themes\volantis\layout中layout.ejs</span> 文件 <span class='p cyan'>body</span> 里面直接引用即可。(不限制于Volantis主题)</p></blockquote><span id="more"></span><div class="note warning"><p>特效选择添加一两个就好，如果多了会影响页面访问速度，很卡。</p></div><h2 id="樱花"><a href="#樱花" class="headerlink" title="樱花"></a>樱花</h2><details cyan><summary> 点击查看图片 </summary>              <div class='content'>              <p><img src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/images/meihua_4.gif" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/images/meihua_4.gif" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="樱花特效"></p>              </div>            </details><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/sakura.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><h2 id="鼠标滑动特效"><a href="#鼠标滑动特效" class="headerlink" title="鼠标滑动特效"></a>鼠标滑动特效</h2><details cyan><summary> 点击查看图片 </summary>              <div class='content'>              <p><img src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/images/meihua_5.gif" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/images/meihua_5.gif" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="鼠标滑动特效"></p>              </div>            </details><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/mouse_slide.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><h2 id="鼠标点击特效"><a href="#鼠标点击特效" class="headerlink" title="鼠标点击特效"></a>鼠标点击特效</h2><details cyan><summary> 点击查看图片 </summary>              <div class='content'>              <p><img src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/images/meihua_6.gif" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/images/meihua_6.gif" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="鼠标点击特效"></p>              </div>            </details><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/mouse_click.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><h2 id="鼠标点击爱心特效"><a href="#鼠标点击爱心特效" class="headerlink" title="鼠标点击爱心特效"></a>鼠标点击爱心特效</h2><details cyan><summary> 点击查看图片 </summary>              <div class='content'>              <p><img src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/images/meihua_7.gif" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/images/meihua_7.gif" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="鼠标点击爱心特效"></p>              </div>            </details><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/clicklove.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><h2 id="鼠标点击社会主义价值观特效"><a href="#鼠标点击社会主义价值观特效" class="headerlink" title="鼠标点击社会主义价值观特效"></a>鼠标点击社会主义价值观特效</h2><details cyan><summary> 点击查看图片 </summary>              <div class='content'>              <p><img src="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/images/meihua_8.gif" class="lazyload" data-srcset="https://cdn.jsdelivr.net/gh/zyoushuo/Blog/images/meihua_8.gif" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" alt="鼠标点击社会主义价值观特效"></p>              </div>            </details><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script src=<span class="string">&quot;https://cdn.jsdelivr.net/gh/zyoushuo/Blog/hexo/js/clicksocialist.js&quot;</span>&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo生成短地址</title>
       <link href="/p/60828.html"/>
       <url>/p/60828.html</url>
