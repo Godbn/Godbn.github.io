@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Hexo压缩Html&amp;Css代码提升页面响应速度</title>
+      <link href="/undefined.html"/>
+      <url>/undefined.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><blockquote><p>当查看页面源代码的时候可以发现，每次生成的Html代码中包含大量空格以及换行符以及注释，Javascript 中空格注释也会影响部分性能，所以打算压缩代码来提升页面性能，经过一番查找发现有一款插件可以满足需求。</p></blockquote><h2 id="使用插件"><a href="#使用插件" class="headerlink" title="使用插件"></a>使用插件</h2><ol><li>执行命令安装插件</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-neat --save</span><br></pre></td></tr></table></figure><ol start="2"><li>在站点配置 <span class='p green'>_config.yml</span> 文件中增加如下配置：</li></ol><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 开启压缩</span></span><br><span class="line">neat_enable: <span class="literal">true</span></span><br><span class="line">neat_html:</span><br><span class="line"><span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">exclude:</span><br><span class="line">neat_css:</span><br><span class="line"><span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">exclude:</span><br><span class="line">    - <span class="string">&#x27;**/*.min.css&#x27;</span></span><br><span class="line">neat_js:</span><br><span class="line"><span class="built_in">enable</span>: <span class="literal">true</span></span><br><span class="line">mangle: <span class="literal">true</span></span><br><span class="line">output:</span><br><span class="line">compress:</span><br><span class="line">exclude:</span><br><span class="line">    - <span class="string">&#x27;**/*.min.js&#x27;</span></span><br><span class="line">    - <span class="string">&#x27;**/index.js&#x27;</span></span><br></pre></td></tr></table></figure><div class="note warning"><p>不需要压缩的文件可以再 <code>exclude</code> 中配置</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>test</title>
       <link href="/63534.html"/>
       <url>/63534.html</url>
