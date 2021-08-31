@@ -1,0 +1,15 @@
+# welcome to : www.pwdsec.top
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /about/
+Allow: /p/
+Allow: /bb/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /lib/
+Sitemap: https://www.pwdsec.top/sitemap.xml
