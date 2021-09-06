@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>批量修改文件名称</title>
+      <link href="/p/27017.html"/>
+      <url>/p/27017.html</url>
+      
+        <content type="html"><![CDATA[<p>本地保存的图片很多都是随机生成的名称，用的时候看着很乱。</p><span id="more"></span><h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>  需要更改简单点，从 <span class='p green'>1.jpg-100.jpg</span></p><h2 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h2><p>下面可以将文件名修改从 <span class='p green'>1.jpg</span> 到任意数字，依次增加。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">@<span class="built_in">echo</span> off</span><br><span class="line"></span><br><span class="line">  <span class="built_in">set</span> a=0</span><br><span class="line"></span><br><span class="line">  setlocal EnableDelayedExpansion</span><br><span class="line"></span><br><span class="line">  <span class="keyword">for</span> %%n <span class="keyword">in</span> (*.jpg) <span class="keyword">do</span> (</span><br><span class="line"></span><br><span class="line">  <span class="built_in">set</span> /A a+=1</span><br><span class="line"></span><br><span class="line">  ren <span class="string">&quot;%%n&quot;</span> <span class="string">&quot;!a!.jpg&quot;</span></span><br><span class="line"></span><br><span class="line">)</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Tools </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Tools </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo页面特效</title>
       <link href="/p/61304.html"/>
       <url>/p/61304.html</url>
